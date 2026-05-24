@@ -49,17 +49,7 @@ const projects = [
     live: "https://weather-climate-app.vercel.app",
     github: "https://github.com/Sahil071803/Weather-Climate-app.git",
   },
-  {
-    id: 5,
-    title: "Portfolio Website",
-    description:
-      "Futuristic AI-powered portfolio built with Next.js, TypeScript, and Tailwind CSS featuring dark/light theme, animations, and AI features.",
-    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    category: "AI",
-    image: "💼",
-    live: "https://portfolio-website-nu-opal-68.vercel.app",
-    github: "https://github.com/Sahil071803/Portfolio-Website.git",
-  },
+
 ];
 
 const filters = ["All", "AI", "WebRTC", "MERN"];
