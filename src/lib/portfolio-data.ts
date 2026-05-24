@@ -53,7 +53,7 @@ export const portfolioData = {
       description: "Futuristic AI-powered portfolio built with Next.js, TypeScript, and Tailwind CSS featuring dark/light theme, animations, and AI features.",
       tags: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
       category: "AI",
-      live: "",
+      live: "https://portfolio-website-nu-opal-68.vercel.app",
       github: "https://github.com/Sahil071803/Portfolio-Website.git",
     },
   ],
