@@ -108,7 +108,7 @@ export default function Skills() {
           ))}
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 max-w-4xl mx-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4 max-w-4xl mx-auto">
           {skillCategories[activeCategory].skills.map((skill, idx) => (
             <div
               key={skill}

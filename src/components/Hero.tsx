@@ -13,8 +13,23 @@ export default function Hero() {
       <div className="glow-ring w-[400px] h-[400px] bg-blue-600 bottom-[-50px] right-[-50px] glow-pulse" style={{ animationDelay: "2s" }} />
       <div className="glow-ring w-[300px] h-[300px] bg-cyan-600 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 glow-pulse" style={{ animationDelay: "4s" }} />
 
-      <div className="relative z-10 max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-        <div className="text-center md:text-left">
+      <div className="relative z-10 max-w-7xl mx-auto grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+        <div className="flex flex-col items-center md:items-start">
+          <div className="md:hidden mb-6">
+            <div className="w-32 h-32 rounded-full bg-gradient-to-br from-purple-600 via-blue-600 to-cyan-500 p-1">
+              <div className="w-full h-full rounded-full overflow-hidden">
+                <Image
+                  src="/hero-profile.jpg"
+                  alt="Sahil"
+                  width={150}
+                  height={150}
+                  className="w-full h-full object-cover"
+                  priority
+                />
+              </div>
+            </div>
+          </div>
+          <div className="text-center md:text-left">
           <p className="text-purple-400 font-medium mb-4 tracking-wider uppercase text-sm">
             Welcome to my portfolio
           </p>
@@ -76,6 +91,7 @@ export default function Hero() {
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
             </a>
+          </div>
           </div>
         </div>
 

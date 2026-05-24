@@ -105,6 +105,12 @@ body {
   padding: 6rem 1rem;
 }
 
+@media (max-width: 400px) {
+  .section-padding {
+    padding: 4rem 0.75rem;
+  }
+}
+
 @media (min-width: 768px) {
   .section-padding {
     padding: 8rem 2rem;
@@ -122,6 +128,15 @@ body {
   filter: blur(80px);
   opacity: 0.3;
   pointer-events: none;
+}
+
+@media (max-width: 640px) {
+  .glow-ring {
+    filter: blur(40px);
+    opacity: 0.15;
+    width: 200px !important;
+    height: 200px !important;
+  }
 }
 
 .btn-primary {

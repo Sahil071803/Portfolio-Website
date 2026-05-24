@@ -119,10 +119,10 @@ export default function AIFeatures() {
       case 0:
         return (
           <>
-            <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white mb-6">
-              <FiMessageSquare size={32} />
+            <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white mb-4 md:mb-6">
+              <FiMessageSquare size={24} className="md:size-8" />
             </div>
-            <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-3">AI Chatbot</h3>
+            <h3 className="text-xl md:text-2xl font-bold text-[var(--text-primary)] mb-3">AI Chatbot</h3>
             <p className="text-[var(--text-gray)] leading-relaxed max-w-md">
               Ask me anything about Sahil's skills, projects, or experience. Get instant AI-powered answers!
             </p>
@@ -134,8 +134,8 @@ export default function AIFeatures() {
       case 1:
         return (
           <>
-            <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white mb-6">
-              <FiFileText size={32} />
+            <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center text-white mb-4 md:mb-6">
+              <FiFileText size={24} className="md:size-8" />
             </div>
             <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-3">AI Resume Summary</h3>
             {summary ? (
@@ -153,8 +153,8 @@ export default function AIFeatures() {
       case 2:
         return (
           <>
-            <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center text-white mb-6">
-              <FiCpu size={32} />
+            <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center text-white mb-4 md:mb-6">
+              <FiCpu size={24} className="md:size-8" />
             </div>
             <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-3">Project Recommender</h3>
             <p className="text-[var(--text-gray)] leading-relaxed max-w-md mb-4">
@@ -183,8 +183,8 @@ export default function AIFeatures() {
       case 3:
         return (
           <>
-            <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center text-white mb-6">
-              <FiVolume2 size={32} />
+            <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center text-white mb-4 md:mb-6">
+              <FiVolume2 size={24} className="md:size-8" />
             </div>
             <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-3">Voice Intro</h3>
             <p className="text-[var(--text-gray)] leading-relaxed max-w-md">
@@ -195,8 +195,8 @@ export default function AIFeatures() {
       case 4:
         return (
           <>
-            <div className="w-20 h-20 rounded-2xl bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center text-white mb-6">
-              <FiSearch size={32} />
+            <div className="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center text-white mb-4 md:mb-6">
+              <FiSearch size={24} className="md:size-8" />
             </div>
             <h3 className="text-2xl font-bold text-[var(--text-primary)] mb-3">Smart Project Search</h3>
             <p className="text-[var(--text-gray)] leading-relaxed max-w-md mb-4">
@@ -266,7 +266,7 @@ export default function AIFeatures() {
             ))}
           </div>
 
-          <div className="glass-card rounded-2xl p-8 min-h-[350px] flex flex-col items-center justify-center text-center">
+          <div className="glass-card rounded-2xl p-6 md:p-8 min-h-[250px] md:min-h-[350px] flex flex-col items-center justify-center text-center">
             {renderPanel()}
           </div>
         </div>
