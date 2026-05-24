@@ -13,7 +13,7 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-2">
             <a href="#home" className="text-2xl font-bold text-gradient">
-              Sahil.
+              Sahil Portfolio
             </a>
             <p className="text-[var(--text-gray)] text-sm mt-3 max-w-md leading-relaxed">
               MERN Stack & AI Developer crafting futuristic digital experiences.

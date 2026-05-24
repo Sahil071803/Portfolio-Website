@@ -39,7 +39,7 @@ export default function Navbar() {
             href="#home"
             className="text-2xl font-bold tracking-tight text-gradient"
           >
-            Sahil.
+            Sahil Portfolio
           </a>
 
           <div className="hidden md:flex items-center gap-8">
