@@ -29,7 +29,7 @@ export default function Footer() {
                 <FiGithub size={16} />
               </a>
               <a
-                href="https://linkedin.com/in/sahil-atram-210b40257"
+                href="https://www.linkedin.com/in/sahil-atram-71a2b9257/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-9 h-9 rounded-full glass flex items-center justify-center text-[var(--text-gray)] hover:text-blue-400 hover:border-blue-500/50 transition-all"
