@@ -8,7 +8,7 @@ export default function Footer() {
   };
 
   return (
-    <footer       className="relative border-t border-[var(--border-light)] pt-16 pb-8 px-4">
+    <footer       className="relative border-t border-[var(--border-light)] pt-16 pb-8 px-4 safe-bottom">
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-12">
           <div className="md:col-span-2">
